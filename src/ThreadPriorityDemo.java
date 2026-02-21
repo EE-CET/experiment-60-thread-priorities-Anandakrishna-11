@@ -1,5 +1,6 @@
 class PriorityThread extends Thread {
     public void run() {
+       
     }
 }
 
@@ -16,5 +17,6 @@ public class ThreadPriorityDemo {
 
         System.out.println("Thread 1 Priority: " + t1.getPriority());
         System.out.println("Thread 2 Priority: " + t2.getPriority());
+        System.out.println("Thread 3 Priority: " + t3.getPriority());
     }
 }
